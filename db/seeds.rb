@@ -14,7 +14,7 @@ puts 'Cleaning doses database'
 
 Dose.destroy_all
 
-puts 'Adding new ingredients to database...'
+puts 'Adding new ingredients to database.'
 
 response = RestClient.get 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 ingredients = JSON.parse(response)
