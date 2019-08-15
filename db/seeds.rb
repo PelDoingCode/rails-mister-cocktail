@@ -33,3 +33,10 @@ Ingredient.create(name: "black lemon")
 Ingredient.create(name: "banana")
 Ingredient.create(name: "apple")
 Ingredient.create(name: "orange")
+
+
+Cocktail.create(name: "mojito", photo: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2013/11/mojito-cocktails.jpg?itok=7ZS6egg_")
+Cocktail.create(name: "mojito", photo: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2013/11/mojito-cocktails.jpg?itok=7ZS6egg_")
+Cocktail.create(name: "mojito", photo: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2013/11/mojito-cocktails.jpg?itok=7ZS6egg_")
+Cocktail.create(name: "mojito", photo: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2013/11/mojito-cocktails.jpg?itok=7ZS6egg_")
+Cocktail.create(name: "mojito", photo: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2013/11/mojito-cocktails.jpg?itok=7ZS6egg_")

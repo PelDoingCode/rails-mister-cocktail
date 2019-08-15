@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>RailsMisterCocktail</title>
 
 
     <meta charset="utf-8">
@@ -20,9 +21,15 @@
   </head>
 
   <body>
+    <div class="navbar-wagon">
+      <div class="navbar-wagon-left">
+        <%= link_to cocktails_path, class:"navbar-wagon-link" do %>
+          <i class="fas fa-home"></i>
+        <% end %>
+      </div>
+    </div>
 
-
-  <div class="eyes">
+<!--   <div class="eyes">
     <div class="eye">
       <div class="ball"></div>
     </div>
@@ -39,7 +46,9 @@
 <br>
 <p>
   <span id="banner-typed-text"></span>
-</p><!--
+</p> -->
+
+<!--
 <script>
   var balls = document.getElementsByClassName("ball");
   document.onmousemove = function(){

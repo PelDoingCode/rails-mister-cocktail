@@ -16,7 +16,6 @@
 body{
   margin: 0;
   padding: 0;
-  background: black;
 }
 .eyes{
   position: absolute;
@@ -55,8 +54,18 @@ body{
   text-align: center;
 }
 
-#container-button {
+.container-button {
+  display: flex;
+  justify-content: space-around;
   padding-top: 80px;
-  text-align: center;
+}
 
+.button1:hover {
+  background-color: white;
+  color: color;
+
+}
+
+.wraper {
+  background-color: black;
 }
