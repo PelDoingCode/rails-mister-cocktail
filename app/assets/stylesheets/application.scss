@@ -26,6 +26,7 @@ body{
   text-align: center;
 }
 .eye{
+  color: #2c75ff;
   width: 120px;
   height: 60px;
   background: #fff;
@@ -39,7 +40,6 @@ body{
 .ball{
   width: 40px;
   height: 40px;
-  background: #000;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,7 +55,8 @@ body{
   text-align: center;
 }
 
-
-.button-landing {
+#container-button {
+  padding-top: 80px;
+  text-align: center;
 
 }
