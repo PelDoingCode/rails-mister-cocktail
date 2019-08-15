@@ -32,6 +32,10 @@ class CocktailsController < ApplicationController
     redirect_to cocktails_path
   end
 
+
+  def landing
+  end
+
   private
 
   def find_cocktail
