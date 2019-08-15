@@ -16,5 +16,7 @@
 // const imagePath = (name) => images(name, true)
 
 import 'bootstrap';
-import { loadDynamicBannerText } from './banner';
-loadDynamicBannerText();
+import { loadDynamicText } from './banner';
+import { followmousse } from './banner';
+loadDynamicText();
+followmousse();

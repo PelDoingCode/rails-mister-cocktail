@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>RailsMisterCocktail</title>
@@ -12,6 +20,46 @@
   </head>
 
   <body>
+
+
+  <div class="eyes">
+    <div class="eye">
+      <div class="ball"></div>
+    </div>
+
+    <div class="eye">
+      <div class="ball"></div>
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+  <span id="banner-typed-text"></span>
+</p>
+
+<script>
+  var balls = document.getElementsByClassName("ball");
+  document.onmousemove = function(){
+    var x = event.clientX * 100 / window.innerWidth + "%";
+    var y = event.clientY * 100 / window.innerHeight + "%";
+    //event.clientX => get the horizontal coordinate of the mouse
+    //event.clientY => get the Vertical coordinate of the mouse
+    //window.innerWidth => get the browser width
+    //window.innerHeight => get the browser height
+
+    for(var i=0;i<2;i++){
+      balls[i].style.left = x;
+      balls[i].style.top = y;
+      balls[i].style.transform = "translate(-"+x+",-"+y+")";
+    }
+  }
+
+</script>
+
     <%= yield %>
     <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
     <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->
