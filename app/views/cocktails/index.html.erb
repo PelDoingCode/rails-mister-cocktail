@@ -1,2 +1,10 @@
 <h1>Cocktails#index</h1>
 <p>Find me in app/views/cocktails/index.html.erb</p>
+
+<div class="row">
+  <% @cocktails.each do |flat| %>
+      <%= link_to(cocktail_path(flat), class:"card-link") do %>
+          <h4><%= flat.name %></h4>
+      <% end %>
+  <% end %>
+</div>
