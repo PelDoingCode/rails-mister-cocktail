@@ -1,5 +1,20 @@
+<div class="banner">
+  <div class="banner-content">
+    <h1>Here is "name of bar"</h1>
+    <%= link_to new_cocktail_path do %>
+    <div class="btn btn-primary btn-lg">Add a Cocktail</div>
+    <%= link_to("CRAZY LANDING PAGE", landing_path(), :class => "btn btn-danger" )%>
+
+    <% end %>
+  </div>
+</div>
+
+
+<br>
+<br>
+
 <div class="wrapper">
-  <div class="banner text-center justify-content-center" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/265704/pexels-photo-265704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
+  <div class="banner text-center justify-content-center" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1WdWzueJ9VMdvapHQ3d-gKl5qkqukpIHHCf95UJxpxKZrqBdB);">
       <p><span id="banner-typed-text"></span></p>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#new_cocktail_modal">
         <i class="fas fa-plus"></i> Cocktail
