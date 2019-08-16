@@ -18,5 +18,7 @@
 import 'bootstrap';
 import { loadDynamicText } from './banner';
 import { followmousse } from './banner';
+import { dynamicText } from './banner';
 loadDynamicText();
 followmousse();
+dynamicText();

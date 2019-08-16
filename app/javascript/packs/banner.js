@@ -8,6 +8,13 @@ function loadDynamicText() {
   });
 }
 
+function dynamicText() {
+  new Typed('#banner-typed-text-2', {
+    strings: ["Hidden button on this page , find it and won, 1 BTC !!!!! "],
+    typeSpeed: 70,
+    loop: true
+  });
+}
 function followmousse () {
 
   // how here i give the path to the class
@@ -31,4 +38,5 @@ function followmousse () {
 
 }
 export { loadDynamicText };
+export { dynamicText };
 export { followmousse };
