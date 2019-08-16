@@ -11,3 +11,25 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+
+
+
+.container-button {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.button1:hover {
+  background-color: orange;
+  color: color;
+
+}
+
+.wrap-button {
+  display: flex;
+  flex-direction: column;
+
+}
