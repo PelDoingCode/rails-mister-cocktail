@@ -19,6 +19,24 @@ import 'bootstrap';
 import { loadDynamicText } from './banner';
 import { followmousse } from './banner';
 import { dynamicText } from './banner';
+import { initSweetalert } from './banner';
+import { replay } from './style';
+
+
 loadDynamicText();
 followmousse();
 dynamicText();
+
+var canvas = document.getElementById("canvas")
+if (canvas) {
+  console.log("HERE we are !!!!!!!!!")
+  replay();
+  window.onclick = replay;
+}
+
+
+initSweetalert('#sweet-alert-dem', {
+  title: "You will receive 1 eth",
+  text: "AirTop is great, isn't it?",
+  icon: "success"
+});
