@@ -74,4 +74,51 @@
       <% end %>
     </div>
   </div>
+
+<br>
+<br>
+<br>
+<br>
+
+
 </div>
+<h1> Other way to show all my COCKTAILS </h1>
+
+<div class="card-product">
+
+  <% @cocktails.each do |cocktail| %>
+    <div class="card-product-infos">
+      <div class="card-product">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <div class="card-product-infos">
+          <h2> <%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
+          <i class="fas fa-trash-alt trash-link"></i>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+
+<%= cl_image_tag cocktail.photo, height: 200, width: 200%>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+    <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fas fa-heart"></i> at Le Wagon <i class="fas fa-heart"></i>
+  </div>
+  </div>
