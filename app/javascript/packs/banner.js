@@ -35,8 +35,9 @@ function followmousse () {
       balls[i].style.transform = "translate(-"+x+",-"+y+")";
     }
   }
-
 }
+
+
 export { loadDynamicText };
 export { dynamicText };
 export { followmousse };

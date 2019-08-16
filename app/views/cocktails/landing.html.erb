@@ -1,50 +1,73 @@
-<div id="wraper">
+<div class="ultimate-wrapper">
+
+
+  <div id="wraper">
 
 
 
-  <p>
-    <span id="banner-typed-text" style="color: black !important"></span>
-  </p>
+    <p>
+      <span id="banner-typed-text" style="color: black !important"></span>
+    </p>
 
 
-  <div class="eyes">
-    <div class="eye">
-      <div class="ball"></div>
+    <div class="eyes">
+      <div class="eye">
+        <div class="ball"></div>
+      </div>
+
+      <div class="eye">
+        <div class="ball"></div>
+      </div>
     </div>
 
-    <div class="eye">
-      <div class="ball"></div>
+
+
+    <div class="container-button">
+
+      <div class="button1 flex-item">
+        <%= link_to cocktails_path do %>
+
+          <button type="button" class="btn btn-danger button-landing sticky-bottom">CLICK HERE TO ORDER</button>
+
+        <% end %>
+
+      </div>
+
+      <div class="button2 flex-item">
+        <a href="https://coinmarketcap.com/currencies/bitcoin/" class="btn btn-primary text-center button-landing sticky-bottom">
+           DON'T CLICK HERE
+        </a>
+
+      </div>
+
+
     </div>
+    <br>
+    <br>
+
+    <p class="typed-text">
+      <span id="banner-typed-text-2" style="color: orange"></span>
+    </p>
+
+
   </div>
 
 
 
-  <div class="container-button">
-
-    <div class="button1 flex-item">
-      <%= link_to cocktails_path do %>
-
-        <button type="button" class="btn btn-danger button-landing sticky-bottom">CLICK HERE TO ORDER</button>
-
-      <% end %>
-
-    </div>
-
-    <div class="button2 flex-item">
-      <a href="https://coinmarketcap.com/currencies/bitcoin/" class="btn btn-primary text-center button-landing sticky-bottom">
-         DON'T CLICK HERE
-      </a>
-
-    </div>
-
-
+  <div class="middle">
+    <a class="btn azerty" href="">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a class="btn azerty" href="">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a class="btn azerty" href="">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a class="btn azerty" href="">
+      <i class="fab fa-google-plus"></i>
+    </a>
   </div>
-  <br>
-  <br>
-
-  <p class="typed-text">
-    <span id="banner-typed-text-2" style="color: orange"></span>
-  </p>
-
 
 </div>
+
